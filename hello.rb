@@ -1,4 +1,5 @@
 #Default is World
-name = ARGV.first || "World"
+
+name = "World" || ARGV.first
 
 puts "Hello #{name}!"
